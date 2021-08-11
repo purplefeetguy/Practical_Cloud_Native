@@ -2,6 +2,6 @@ version: "3.8"
 
 services:
   c1:
-    image: static-website:v1
+    build: .
     ports:
       - "7070:80"

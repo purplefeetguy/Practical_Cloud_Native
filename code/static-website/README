@@ -7,8 +7,7 @@ Simple website
 
 # Getting Started
 
-- build: `docker build -t static-website:v1 .`
-- run: `docker run --name c1 -p 7070:80 static-website:v1`
+- 'docker-compose up -d'
 
 Naviage to http://localhost:7070
 
